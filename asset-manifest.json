@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/amoCrm-task2-react/static/css/main.2cb62336.css",
+    "main.js": "/amoCrm-task2-react/static/js/main.85be1135.js",
+    "static/media/bg.png": "/amoCrm-task2-react/static/media/bg.40d1ba7ba2a5459f7130.png",
+    "static/media/logo_welbex.svg": "/amoCrm-task2-react/static/media/logo_welbex.2e08d1bd108cb8b2aee116b1817d851e.svg",
+    "static/media/whatsapp.svg": "/amoCrm-task2-react/static/media/whatsapp.ebe720f0c912eda28e2bf0613c18300f.svg",
+    "static/media/viber.svg": "/amoCrm-task2-react/static/media/viber.efdbe6bd3950a854df10750809a40828.svg",
+    "index.html": "/amoCrm-task2-react/index.html",
+    "static/media/telegram.svg": "/amoCrm-task2-react/static/media/telegram.40ecd015eebebbe71b5bd0354d54208e.svg",
+    "main.2cb62336.css.map": "/amoCrm-task2-react/static/css/main.2cb62336.css.map",
+    "main.85be1135.js.map": "/amoCrm-task2-react/static/js/main.85be1135.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cb62336.css",
+    "static/js/main.85be1135.js"
+  ]
+}
