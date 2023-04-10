@@ -83,16 +83,18 @@
 }
 
 @media (max-width: 900px) {
-  .social-icons-wrapper {
+  .right-wrapper {
     display: none;
+  }
+
+  .left-wrapper {
+    justify-content: space-between;
+    gap: 0;
+    width: 100%;
   }
 }
 
 @media (max-width: 740px) {
-  .logo {
-    display: none;
-  }
-
   .header {
     display: flex;
     margin: 0 auto;
@@ -106,6 +108,16 @@
     position: fixed;
     top: 0;
     right: 0;
+  }
+
+  .logo {
+    display: none;
+  }
+
+
+  .left-wrapper {
+    justify-content: center;
+    width: 100%;
   }
 
   .nav-list {

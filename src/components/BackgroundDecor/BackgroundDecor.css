@@ -2,7 +2,7 @@
   position: absolute;
   width: 60px;
   height: 60px;
-  left: 868px;
+  left: 74%;
   top: -2px;
   z-index: -1;
   border-radius: 50%;
@@ -16,7 +16,7 @@
   position: absolute;
   width: 83px;
   height: 83px;
-  left: 519px;
+  left: 50%;
   top: 83px;
   border-radius: 50%;
   z-index: -1;
@@ -30,7 +30,7 @@
   position: absolute;
   width: 28px;
   height: 28px;
-  left: 851px;
+  left: 74px;
   top: 547px;
   border-radius: 50%;
   z-index: -1;
@@ -45,7 +45,7 @@
   position: absolute;
   width: 259px;
   height: 259px;
-  left: 602px;
+  left: 51%;
   top: -154px;
   z-index: -1;
 
@@ -58,7 +58,7 @@
   position: absolute;
   width: 311px;
   height: 311px;
-  left: -102px;
+  left: -9%;
   top: 251px;
   z-index: -1;
 
@@ -68,7 +68,7 @@
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 740px) {
   .purple-ball {
     display: none;
   }
