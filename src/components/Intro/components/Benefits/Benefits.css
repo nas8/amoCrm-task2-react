@@ -118,6 +118,10 @@
     row-gap: 14px;
   }
 
+  .benefits-gradient-text  {
+    text-transform: lowercase;
+  }
+
   .benefit-mobile {
     display: flex;
     align-items: center;

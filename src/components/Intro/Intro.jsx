@@ -7,8 +7,10 @@ import './Intro.css';
 export const Intro = () => {
   return (
     <div className="intro">
-      <Title />
-      <Benefits />
+      <div className="intro-inner">
+        <Title />
+        <Benefits />
+      </div>
     </div>
   );
 };

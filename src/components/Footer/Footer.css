@@ -96,15 +96,19 @@ li:not(:last-child) {
 @media (max-width: 740px) {
   .footer {
     font-size: 14px;
-    max-width: 289px;
+    max-width: 362px;
     margin-bottom: 60px;
+    justify-content: center;
+    align-items: center;
   }
 
   .footer-wrapper {
     flex-direction: column;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
     padding-top: 41px;
     margin-bottom: 50px;
+
   }
 
   .footer-menu-wrapper {
@@ -114,6 +118,7 @@ li:not(:last-child) {
   }
 
   .footer-contacts {
+    align-self: flex-start;
     text-align: left;
     gap: 10px;
   }
@@ -130,3 +135,10 @@ li:not(:last-child) {
     text-align: left;
   }
 }
+
+@media (max-width: 450px) {
+  .footer {
+    max-width: 270px;
+  }
+}
+

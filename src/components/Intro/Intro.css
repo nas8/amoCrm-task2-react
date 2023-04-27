@@ -1,18 +1,24 @@
 .intro {
-  display: flex;
   width: 100%;
+}
+
+.intro-inner {
+  display: flex;
   justify-content: space-between;
+
 }
 
 @media (max-width: 740px) {
   .intro {
-    padding-top: 115px;
+    padding-top: 95px;
+    background: url('../../assets/bg.png') no-repeat center;
+    background-size: cover;
+  }
+
+  .intro-inner {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 45px;
-
-    background: url('../../assets/bg.png') no-repeat center;
-    background-size: cover;
   }
 }
